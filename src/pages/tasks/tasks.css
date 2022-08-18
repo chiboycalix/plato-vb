@@ -1,0 +1,12 @@
+ul.tasks {
+  text-decoration: none;
+  list-style: none;
+}
+li.task-item {
+  padding: 10px;
+  display: flex;
+}
+.checkbox-mark {
+  margin-right: 5px;
+  margin-top: 2px;
+}

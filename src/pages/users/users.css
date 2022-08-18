@@ -1,0 +1,14 @@
+ul.users {
+  text-decoration: none;
+  list-style: none;
+}
+li.user-item {
+  background-color: white;
+  padding: 16px 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+}
+li:not(:last-child) {
+  margin-bottom: 15px;
+}

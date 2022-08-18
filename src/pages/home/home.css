@@ -1,0 +1,27 @@
+.homeWrapper {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+.homeContent {
+  width: 70%;
+  background-color: #efefee;
+  padding: 2rem;
+}
+h1 {
+  margin-bottom: 2rem;
+}
+.usersTasksWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.users {
+  flex-basis: 30%;
+  margin-right: 1rem;
+}
+.tasks {
+  flex: 1;
+}
+.section-title {
+  margin-bottom: 20px;
+}

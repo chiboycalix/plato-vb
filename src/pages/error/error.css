@@ -1,0 +1,42 @@
+#main {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.fof {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.fof h1 {
+  font-size: 50px;
+  display: inline-block;
+  padding-right: 12px;
+  animation: type 0.5s alternate infinite;
+}
+.round-grad {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#57ff03), to(#0dc700));
+  background-image: -webkit-linear-gradient(top, #57ff03, #0dc700);
+  background-image: -o-linear-gradient(top, #57ff03, #0dc700);
+  background-image: linear-gradient(to bottom, #57ff03, #0dc700);
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  padding: 15px 30px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@keyframes type {
+  from {
+    box-shadow: inset -3px 0px 0px #888;
+  }
+  to {
+    box-shadow: inset -3px 0px 0px transparent;
+  }
+}
